@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-for number in range(0, 100):
-    if number == 99:
-        print("{}".format(number))
-    else:
-        print("{:02}".format(number), end=", ")
+for letter in range(97, 123):
+    if chr(letter) is not 'q' and chr(letter) is not 'e':
+        print("{}".format(chr(letter)), end="")
